@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+@keyframes example {
+  from {background-color: gold;}
+  to {background-color: #728FCE;}
+}
+@keyframes top1 {
+  from {background-color: rgb(255, 174, 0);}
+  to {background-color: #2B3856; color: #C9C0BB;}
+}
+
+.mybackground{
+  background: rgb(255, 196, 86);
+  animation-name: example;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.mydiv {
+  position: sticky;
+  top: 0;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 174, 0);
+  animation-name: top1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.objectdesign{
+  color: white;
+}
+
+.image{
+  float: right;
+  margin: 0 15px;
+}
+
+.margin{
+  margin: 10px;
+}
